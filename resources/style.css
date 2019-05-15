@@ -1,3 +1,25 @@
-p {
-  color: blue;
+/* Box model reset */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica";
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
